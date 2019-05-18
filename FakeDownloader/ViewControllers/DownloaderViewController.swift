@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SVProgressHUD
 class DownloaderViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -21,7 +21,9 @@ class DownloaderViewController: UIViewController {
     }
     
     func setUpApi() {
+        SVProgressHUD.show()
         downloaderViewModel?.fetchData(completionHandler: { error in
+            SVProgressHUD.dismiss()
             if let error = error {
                 self.showGenericAlert(with: error.localizedDescription)
             } else {
