@@ -6,7 +6,13 @@
 //  Copyright © 2019 Lokesh Yadav. All rights reserved.
 //
 
+
+let English = "en"
+let Spanish = "es"
+let French =  "fr"
+
 import UIKit
+import Loki
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        LKManager.add(LKLanguage.init(name: "English", code: English, title: "English"))
+        LKManager.add(LKLanguage.init(name: "French", code: French, title: "French"))
+        
+    
+        if let item = LKManager.sharedInstance().languages[1] as? LKLanguage {
+            LKManager.sharedInstance().currentLanguage = item
+        }
+        print("Hello New update")
+        
+
+
         // Override point for customization after application launch.
         return true
     }

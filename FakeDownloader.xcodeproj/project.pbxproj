@@ -16,6 +16,8 @@
 		9EF4AC6F228F0D8300CA6329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF4AC6D228F0D8300CA6329 /* LaunchScreen.storyboard */; };
 		9EF4AC7A228F0D8300CA6329 /* FakeDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4AC79228F0D8300CA6329 /* FakeDownloaderTests.swift */; };
 		9EF4AC85228F0D8300CA6329 /* FakeDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4AC84228F0D8300CA6329 /* FakeDownloaderUITests.swift */; };
+		9EFE87AF229460FF00159435 /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE87AE229460FE00159435 /* TempViewController.swift */; };
+		9EFE87B4229461CB00159435 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EFE87B6229461CB00159435 /* Localizable.strings */; };
 		A2F3BBD6228F34650096D459 /* DownloaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3BBD5228F34650096D459 /* DownloaderModel.swift */; };
 		A2F3BBD8228F35870096D459 /* DownloaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3BBD7228F35870096D459 /* DownloaderViewModel.swift */; };
 		A2F3BBDB228F35BD0096D459 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3BBDA228F35BD0096D459 /* NetworkManager.swift */; };
@@ -51,9 +53,7 @@
 		9EF4AC61228F0D8100CA6329 /* FakeDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF4AC64228F0D8100CA6329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EF4AC66228F0D8100CA6329 /* DownloaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderViewController.swift; sourceTree = "<group>"; };
-		9EF4AC69228F0D8100CA6329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EF4AC6B228F0D8300CA6329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9EF4AC6E228F0D8300CA6329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EF4AC70228F0D8300CA6329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EF4AC75228F0D8300CA6329 /* FakeDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF4AC79228F0D8300CA6329 /* FakeDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDownloaderTests.swift; sourceTree = "<group>"; };
@@ -61,6 +61,11 @@
 		9EF4AC80228F0D8300CA6329 /* FakeDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF4AC84228F0D8300CA6329 /* FakeDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDownloaderUITests.swift; sourceTree = "<group>"; };
 		9EF4AC86228F0D8300CA6329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFE87AE229460FE00159435 /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		9EFE87B2229461BC00159435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EFE87B3229461BC00159435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EFE87B5229461CB00159435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9EFE87B7229461D700159435 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A2F3BBD5228F34650096D459 /* DownloaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderModel.swift; sourceTree = "<group>"; };
 		A2F3BBD7228F35870096D459 /* DownloaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderViewModel.swift; sourceTree = "<group>"; };
 		A2F3BBDA228F35BD0096D459 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -177,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				9EF4AC66228F0D8100CA6329 /* DownloaderViewController.swift */,
+				9EFE87B6229461CB00159435 /* Localizable.strings */,
+				9EFE87AE229460FE00159435 /* TempViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -336,7 +343,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				fr,
 			);
 			mainGroup = 9EF4AC58228F0D8100CA6329;
 			productRefGroup = 9EF4AC62228F0D8100CA6329 /* Products */;
@@ -356,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EF4AC6F228F0D8300CA6329 /* LaunchScreen.storyboard in Resources */,
+				9EFE87B4229461CB00159435 /* Localizable.strings in Resources */,
 				9EF4AC6C228F0D8300CA6329 /* Assets.xcassets in Resources */,
 				9EF4AC6A228F0D8100CA6329 /* Main.storyboard in Resources */,
 			);
@@ -422,11 +430,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FakeDownloader/Pods-FakeDownloader-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Loki/Loki.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Loki.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +474,7 @@
 				A2F3BBDB228F35BD0096D459 /* NetworkManager.swift in Sources */,
 				A2F3BBD6228F34650096D459 /* DownloaderModel.swift in Sources */,
 				A2F3BBE1228F3CB40096D459 /* UIViewController+Extension.swift in Sources */,
+				9EFE87AF229460FF00159435 /* TempViewController.swift in Sources */,
 				A2F3BBD8228F35870096D459 /* DownloaderViewModel.swift in Sources */,
 				A2F3BBDE228F369E0096D459 /* Constant.swift in Sources */,
 				A2F3BBE9228F56F80096D459 /* DownloaderCollectionViewCell.swift in Sources */,
@@ -505,7 +516,7 @@
 		9EF4AC68228F0D8100CA6329 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EF4AC69228F0D8100CA6329 /* Base */,
+				9EFE87B2229461BC00159435 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -513,9 +524,18 @@
 		9EF4AC6D228F0D8300CA6329 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EF4AC6E228F0D8300CA6329 /* Base */,
+				9EFE87B3229461BC00159435 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9EFE87B6229461CB00159435 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EFE87B5229461CB00159435 /* en */,
+				9EFE87B7229461D700159435 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -525,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -572,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -586,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -627,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
